@@ -13,7 +13,7 @@ namespace CalculateDistance
 
 		private async void OnCounterClicked(object sender, EventArgs e)
 		{
-            var myLocation = await Geolocation.GetLocationAsync();
+            		var myLocation = await Geolocation.GetLocationAsync();
 
 			var otherLocation = new Location(58.9438705, 5.7118685);
 
